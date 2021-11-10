@@ -15,7 +15,10 @@
 			<table>
 				<tr>
 					<td>Izena:</td>
-					<td><h:inputText id="izen" value="#{login.izena}"></h:inputText></td>
+					<td><h:inputText id="izen" value="#{login.izena}">
+							<f:validateRegex pattern="^(([a-z]|[A-Z])+[0-9]?)$" />
+						</h:inputText></td>
+						<td><h:message for="izen" style="color:red" /></td>
 				</tr>
 				<tr>
 					<td>Pasahitza:</td>
