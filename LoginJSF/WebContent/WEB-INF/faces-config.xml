@@ -8,7 +8,7 @@
 	<managed-bean>
 		<managed-bean-name>login</managed-bean-name>
 		<managed-bean-class>eredua.bean.LoginBean</managed-bean-class>
-		<managed-bean-scope>session</managed-bean-scope>
+		<managed-bean-scope>request</managed-bean-scope>
 	</managed-bean>
 	<navigation-rule>
 		<display-name>Login.xhtml</display-name>
