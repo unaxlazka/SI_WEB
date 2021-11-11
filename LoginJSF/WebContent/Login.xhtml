@@ -31,11 +31,10 @@
 					<td><h:message for="pass" style="color:red" /></td>
 				</tr>
 				<tr>
-					<td>Data (yyyy/MM/dd):</td>
-					<td><h:inputText id="data" value="#{login.data}">
-							<f:convertDateTime pattern="yyyy/MM/dd" />
-						</h:inputText></td>
-					<td><h:message for="data" style="color:red" /></td>
+					<td>Data (PrimeFaces-ekin):</td>
+					<td><p:calendar id="data" value="#{login.data}"
+							navigator="false" mode="inline"> <p:ajax event="dateSelect"
+							listener="#{login.onDateSelect}" update="mezuak"/></p:calendar></td>
 				</tr>
 			</table>
 			<p>
