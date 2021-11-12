@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#LoginKonponente.xhtml"
+  PATH="/LoginKonponente.xhtml" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#LoginKonponente.xhtml:0" NAME="item"
+   PATH="/LoginKonponente.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="ok::#KaixoKonponente.xhtml" NAME="output"
+    PATH="/KaixoKonponente.xhtml" TARGET="rules:#KaixoKonponente.xhtml"
+    TITLE="ok" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#LoginKonponente.xhtml:1" NAME="item1"
+   PATH="/LoginKonponente.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="error::#PirataKonponente.xhtml"
+    NAME="output" PATH="/PirataKonponente.xhtml"
+    TARGET="rules:#PirataKonponente.xhtml" TITLE="error" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#KaixoKonponente.xhtml"
+  PATH="/KaixoKonponente.xhtml" SHAPE="256,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#PirataKonponente.xhtml"
+  PATH="/PirataKonponente.xhtml" SHAPE="256,177,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

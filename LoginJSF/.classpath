@@ -20,7 +20,12 @@
 			<attribute name="owner.project.facets" value="jst.jsf"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ekhil/Desktop/UNAX/SI/jar_primefaces/primefaces-4.0.jar">
+	<classpathentry kind="lib" path="C:/Users/ekhil/Desktop/UNAX/SI/jar/jar_primefaces/primefaces-4.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ekhil/Desktop/UNAX/SI/jar/jar_omnifaces/omnifaces-1.8.1.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
